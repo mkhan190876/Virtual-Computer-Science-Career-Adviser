@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    
+<category>
+    <pattern>*</pattern>
+    <template>Hi there! I am your university's virtual computer science career advisor. 
+    Would you like to take a small test to determine a suitable career path in the field of computer science?</template>
+</category>
+  
+<category>
+      <pattern>YES</pattern>
+      <template>Great! Do you prefer writing new software or maintaining already created software? 
+      Type "coding" for writing software or "administration" for maintaining software.</template>
+</category>
+  
+<category>
+      <pattern>YEAH</pattern>
+      <template>Great! Do you prefer writing new software or maintaining already created software? 
+      Type "coding" for writing software or "administration" for maintaining software.</template>
+</category>
+  
+<category>
+      <pattern>YUP</pattern>
+      <template>Great! Do you prefer writing new software or maintaining already created software? 
+      Type "coding" for writing software or "administration" for maintaining software.</template>
+  </category>
+  
+  <category>
+      <pattern>NO</pattern>
+      <template>Sorry to hear that. Please call your career advisor at 123-456-7890 for assistance in career placement.</template>
+  </category>
+  
+  <category>
+      <pattern>NOT REALLY</pattern>
+      <template>Sorry to hear that. Please call your career advisor at 123-456-7890 for assistance in career placement.</template>
+  </category>
+  
+  <category>
+      <pattern>I DONT THINK SO</pattern>
+      <template>Sorry to hear that. Please call your career advisor at 123-456-7890 for assistance in career placement.</template>
+  </category>
+  
+  <category>
+      <pattern>CODING</pattern>
+      <template>Do you prefer to create web applications or are you more interested in other forms of software development?
+      Type "web" for web applications or "other" for other forms of software development.</template>
+  </category>
+  
+  <category>
+      <pattern>WEB</pattern>
+      <template>You are best suited for a career as a web developer. Your primary focus will be to create a variety of web applications utilizing HTML and CSS for front-end web development and JavaScript for back-end web development. </template>
+  </category>
+  
+  <category>
+      <pattern>OTHER</pattern>
+      <template>Do you prefer to use programming languages such as C or C++, or do you prefer to use languages such as Java or C# instead?
+      Type "C" for C or C++ or say "Java" for Java or C#.</template>
+  </category>
+  
+  <category>
+      <pattern>C</pattern>
+      <template>You are best suited for a career as an embedded systems developer. Your primary focus will be to use languages such as C or C++ to develop embedded software systems for a variety of different systems.
+      This includes developing software for automotive vehicles, airplanes, space shuttles, and many modern household items as well including microwaves and refrigerators.</template>
+  </category>
+  
+  <category>
+      <pattern>JAVA</pattern>
+      <template>You are best suited for a career as an enterprise application developer. Your primary focus will be to use languages such as Java and C# to develop and optimize desktop applications for various different purposes.
+      This includes updating and improving software applications for the company you are working for, or creating custom desktop applications for other companies using various different IDE's and operating systems such as Visual Studio and Linux.</template>
+  </category>
+  
+  <category>
+      <pattern>ADMINISTRATION</pattern>
+      <template>Are you more interested in maintaining and updating database systems which store a variety of information for different companies. Or are you interested maintaining and ensuring a secure and efficient network system?
+      Type "database" if you are more interested in database systems or "network" if you are more interested in networking systems</template>
+  </category>
+  
+  <category>
+      <pattern>DATABASE</pattern>
+      <template>You are best suited for a career as a database administrator. 
+      Your primary focus will be to utilize specialized database software such as MySql or Oracle SQL to maintain, configure, design, and secure database systems. </template>
+  </category>
+  
+  <category>
+      <pattern>NETWORK</pattern>
+      <template>You are best suited for a career as a network administrator.
+      Your primary focus will be to utilize specialized network software such as Wireshark, iPerf, and Zenmap to organize, install, maintain, and optimize network systems.</template>
+  </category>
+  
+</aiml>
